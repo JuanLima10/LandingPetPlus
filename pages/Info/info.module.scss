@@ -59,14 +59,9 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px){
     .Info{
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 980px){
-    .Info{
+        height: 100vh;
         
         .InfoContainer{
             flex-direction: column;
@@ -80,10 +75,7 @@
             }
 
             .hero2{
-
-                img{
-                    margin-left: 10rem;
-                }
+                margin-bottom: 2rem;
             }
         }
     }
@@ -105,7 +97,6 @@
 
                 img{
                     width: 36rem;
-                    margin-left: 8rem;
                 }
             }
         }
@@ -123,9 +114,14 @@
 
                 img{
                     width: 32rem;
-                    margin-left: 7rem;
                 }
             }
         }
+    }
+}
+
+@media screen and (max-height: 736px) {
+    .Info{
+        height: auto;
     }
 }

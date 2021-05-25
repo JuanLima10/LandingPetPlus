@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Style from './info.module.scss'
 import NavBar from '../NavBar'
+import Footer from '../Footer'
 
 export default function Info(){
     return(
