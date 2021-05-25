@@ -1,0 +1,101 @@
+.NavBar{
+    width: 100%;
+    background: transparent;
+    padding-top: 2rem;
+
+    .NavBarContainer{
+        max-width: 1440px;
+        margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50rem;
+
+        img{
+            cursor: pointer;
+        }
+
+        .btnsNavBar{
+            a{
+                text-decoration: none;
+                color: #2AA69B;
+                margin-left: 1rem;
+    
+                padding: 1rem 2.4rem;
+                background: #ECFFFD;
+                border-radius: 2.1rem;
+    
+                font-family: "Now-Bold";
+                font-size: 1rem;
+            }
+    
+            a:hover{
+                color: #ECFFFD;
+                background: transparent;
+                border: 1px solid #ECFFFD;
+                transition: .1s;
+            }
+    
+            a:nth-child(2){
+                text-decoration: none;
+                color: #ECFFFD;
+                margin-left: 1rem;
+    
+                padding: 1rem 3rem;
+                background: transparent;
+                border: 1px solid #ECFFFD;
+                border-radius: 2.1rem;
+    
+                font-family: "Now-Bold";
+                font-size: 1rem;
+            }
+    
+            a:nth-child(2):hover{
+                color: #2AA69B;
+                background: #ECFFFD;
+                transition: .1s;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 830px){
+    .NavBar{
+
+        .NavBarContainer{
+            gap: 20rem;
+
+            img{
+                width: 12rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .NavBar{
+        margin-top: 1rem;
+        margin-bottom: 24rem;
+
+        .NavBarContainer{
+            margin-top: 1rem;
+            gap: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .NavBar{
+
+        .NavBarContainer{
+            flex-direction: column;
+            justify-content: center;
+            gap: 0;
+
+            .btnsNavBar{
+                margin-top: 5rem;
+            }
+        }
+    }
+}

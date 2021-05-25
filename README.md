@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+﻿# Landing page Pet+
+<div align="center"> 
+<img style="margin: 18px;" height="380em" src=""/>
+<img style="margin: 18px;" height="380em" src=""/>
+</div>
 
-## Getting Started
+</br>
 
-First, run the development server:
+<div align="center"> 
+<a href="https://felpe-sena-portfolio.vercel.app/">Veja o site</a>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+</br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Status: Finalizado!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Esse site foi desenvolvido como portfólio para meu amigo Felipe Sena que criou o Designer no Figma.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🧪 Tecnologias Usadas:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
++ Next JS
++ TypeScript
++ CSS 3
 
-## Learn More
+## 🧾 Meus Contatos:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* Linkedin: <a href="https://www.linkedin.com/in/juan-lima-297b9a1b4/">https://www.linkedin.com/in/juan-lima-297b9a1b4/</a>;
+* Instagram: <a href="https://www.instagram.com/juanlima051/">https://www.instagram.com/juanlima051/</a>;
+* Site: <a href="https://juanlima10.github.io/meuPort/">https://juanlima10.github.io/meuPort/</a>.

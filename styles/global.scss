@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body{
+  height: 100vh;
+  background-color: #FF6584;
+
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width: 1200px) {
+  html{
+      font-size: 56%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html{
+      font-size: 56%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html{
+    font-size: 46%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html{
+    font-size: 38%;
+  }
+}
+
+@font-face {
+  font-family: "Now-Black";
+  src: url("../fonts/Now-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Now-Bold";
+  src: url("../fonts/Now-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Now-Light";
+  src: url("../fonts/Now-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Now-Medium";
+  src: url("../fonts/Now-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Now-Regular";
+  src: url("../fonts/Now-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Now-Thin";
+  src: url("../fonts/Now-Thin.otf") format("opentype");
+}

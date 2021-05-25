@@ -1,0 +1,131 @@
+.Info{
+    width: 100%;
+    height: 100vh;
+    background: #4ABCB4;
+
+    .InfoContainer{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 10rem 0 0 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    
+        .hero1{
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+
+            margin-top: -18rem;
+
+            p{
+                width: 54rem;
+                font-family: "Now-Bold";
+                font-size: 5.4rem;
+                color: #ECFFFD;
+
+                margin-bottom: 3rem;
+            }
+            P:nth-child(2){
+                font-family: "Now-Light";
+                font-size: 2rem;
+                text-align: center;
+                color: #ECFFFD;
+
+                margin-bottom: 5rem;
+            }
+
+            a{
+                text-decoration: none;
+                color: #2AA69B;
+
+                padding: 1.2rem 2.8rem;
+                background: #ECFFFD;
+                border-radius: 2.1rem;
+
+                font-family: "Now-Bold";
+                font-size: 1.2rem;
+            }
+            a:hover{
+                color: #ECFFFD;
+                background: transparent;
+                border: 1px solid #ECFFFD;
+                transition: .1s;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Info{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .Info{
+        
+        .InfoContainer{
+            flex-direction: column;
+            margin-top: 15rem;
+
+            .hero1{
+                p{
+                    width: 44rem;
+                    text-align: center;
+                }
+            }
+
+            .hero2{
+
+                img{
+                    margin-left: 10rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Info{
+
+        .InfoContainer{
+
+            .hero1{
+                p{
+                    width: 44rem;
+                    text-align: center;
+                }
+            }
+
+            .hero2{
+
+                img{
+                    width: 36rem;
+                    margin-left: 8rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .Info{
+
+        .InfoContainer{
+            flex-direction: column;
+            gap: 2;
+
+            .hero2{
+
+                img{
+                    width: 32rem;
+                    margin-left: 7rem;
+                }
+            }
+        }
+    }
+}

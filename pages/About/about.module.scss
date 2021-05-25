@@ -1,0 +1,189 @@
+.About{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(86, 6, 255, 0.0735) 100%);
+    background-color: #ECFFFD;
+
+    .AboutContainer{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 3.5rem;
+
+        .TextUp{
+            margin-bottom: -4rem;
+
+            p{
+                font-family: "Now-Bold";
+                font-size: 6rem;
+                text-align: center;
+                color: #0C9A8F;
+            }
+
+            p:nth-child(2){
+                font-family: "Now-Light";
+                font-size: 2rem;
+                text-align: center;
+                color: #3F3D56;
+
+                margin-top: 2rem;
+            }
+        }
+
+        .Ilustrations{
+            display: flex;
+            align-items: center;
+            gap: 10rem;
+
+            .Ilustration1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                margin-top: 10rem;
+
+                img{
+                    width: 30rem;
+                    margin: 0 auto;
+                }
+
+                p{
+                    font-family: "Now-Bold";
+                    font-size: 3rem;
+                    text-align: center;
+                    color: #2AA69B;
+
+                    margin-top: 2rem;
+                }
+
+                p:nth-Child(3){
+                    font-family: "Now-Light";
+                    font-size: 1.6rem;
+                    line-height: 2rem;
+                    text-align: start;
+                    color: #454545;
+                }
+            }
+
+            .Ilustration2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                img{
+                    width: 30rem;
+                    margin: 0 auto;
+                }
+
+                p{
+                    font-family: "Now-Bold";
+                    font-size: 3rem;
+                    text-align: center;
+                    color: #2AA69B;
+
+                    margin-top: 2rem;
+                }
+
+                p:nth-Child(3){
+                    font-family: "Now-Light";
+                    font-size: 1.6rem;
+                    line-height: 2rem;
+                    text-align: start;
+                    color: #454545;
+                }
+            }
+
+            .Ilustration3{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: -16rem;
+
+                img{
+                    width: 30rem;
+                    margin: 0 auto;
+                }
+
+                p{
+                    font-family: "Now-Bold";
+                    font-size: 3rem;
+                    text-align: center;
+                    color: #2AA69B;
+
+                    margin-top: 2rem;
+                }
+
+                p:nth-Child(3){
+                    font-family: "Now-Light";
+                    font-size: 1.6rem;
+                    line-height: 2rem;
+                    text-align: start;
+                    color: #454545;
+
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .About{
+        height: auto;
+
+        .AboutContainer{
+
+            .Ilustrations{
+                margin-top: 10rem;
+
+                .Ilustration1{
+                    margin-top: -2rem;
+
+                    img{
+                        width: 24rem;
+                    }
+                }
+
+                .Ilustration3{
+                    margin-top: 0rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .About{
+        height: 100%;
+
+        .AboutContainer{
+
+            .Ilustrations{
+                flex-direction: column;
+
+                .Ilustration1{
+                    margin-bottom: 2rem;
+                    
+                    P{
+                        width: 40rem;
+                    }
+                }
+
+                .Ilustration2{
+                    margin-bottom: 2rem;
+                    
+                    P{
+                        width: 40rem;
+                    }
+                }
+
+                .Ilustration3{
+                    margin-bottom: 2rem;
+
+                    P{
+                        width: 40rem;
+                    }
+                }
+            }
+        }
+    }
+}

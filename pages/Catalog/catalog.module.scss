@@ -1,0 +1,117 @@
+.Catalog{
+    width: 100%;
+    height: 100vh;
+    background-color: #ECFFFD;
+
+    .CatalogContainer{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 3.5rem;
+
+        .TextUp{
+            
+            p{
+                font-family: "Now-Bold";
+                font-size: 6rem;
+                text-align: center;
+                color: #0C9A8F;
+            }
+
+            p:nth-child(2){
+                font-family: "Now-Light";
+                font-size: 2rem;
+                text-align: center;
+                color: #3F3D56;
+
+                margin-top: 2rem;
+            }
+        }
+
+        .Prints{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10rem;
+
+            margin-top: 8rem;
+            margin-bottom: 4rem;
+
+            .Print1{
+                
+                img{
+                    width: 27.2rem;
+                }
+            }
+
+            .Print2{
+                margin-top: -25rem;
+
+                img{
+                    width: 27.2rem;
+                }
+            }
+
+            .Print3{
+                margin-top: 20rem;
+
+                img{
+                    width: 27.2rem;
+                }
+            }
+        }
+
+        p{
+            font-family: "Now-Light";
+            font-size: 1.8rem;
+            text-align: center;
+            color: #3F3D56;
+
+            margin-bottom: -2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Catalog{
+        height: auto;
+
+        .CatalogContainer{
+            padding: 6rem;
+
+            .Prints{
+                gap: 6rem;
+
+                .Print1{
+                    margin-top: -4rem;
+                }
+                .Print2{
+                    margin-top: 0rem;
+                }
+
+                .Print3{
+                    margin-top: 0rem;
+                }
+            }
+        }
+        p{
+            margin-top: -4rem;
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .Catalog{
+        height: 100%;
+
+        .CatalogContainer{
+
+            .Prints{
+                flex-direction: column;
+            
+            }
+            p{
+                margin-top: 1rem;
+            }
+        }
+    }
+}
