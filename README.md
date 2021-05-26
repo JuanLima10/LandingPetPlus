@@ -7,7 +7,7 @@
 </br>
 
 <div align="center"> 
-<a href="https://felpe-sena-portfolio.vercel.app/">Veja o site</a>
+<a target="_blank" href="https://landing-page-pet-plus.vercel.app/">Veja o site</a>
 </div>
 
 </br>
