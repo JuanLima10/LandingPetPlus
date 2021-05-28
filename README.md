@@ -7,7 +7,7 @@
 </br>
 
 <div align="center"> 
-<a href="https://landing-page-pet-plus.vercel.app/">Veja o site</a>
+<a href="https://pet-add-page.vercel.app/">Veja o site</a>
 </div>
 
 </br>
