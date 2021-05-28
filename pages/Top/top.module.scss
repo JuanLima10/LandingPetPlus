@@ -118,6 +118,12 @@
     }
 }
 
+@media screen and (max-height: 680px) {
+    .home{
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 550px){
     .home{
 
