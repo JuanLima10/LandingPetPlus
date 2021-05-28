@@ -72,15 +72,28 @@
                     width: 44rem;
                     text-align: center;
                 }
-                
-                a{
-                    padding: 1.6rem 4rem;
-                    font-size: 1.6rem;
-                }
             }
 
             .hero2{
                 margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 980px){
+    .home{
+        
+        .homeContainer{
+
+            .hero1{
+
+                a{
+                    width: 90%;
+                    text-align: center;
+                    padding: 1.6rem 4rem;
+                    font-size: 1.6rem;
+                }
             }
         }
     }
